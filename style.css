@@ -20,20 +20,26 @@ header {
 }
 
 header h1 {
+  font-size: 35px;
   margin-left: 15px;
 }
 
 .navegacion {
+  font-size: 20px;
   display: flex;
   gap: 25px;
   align-items: center;
   margin-right: 15px;
+}
+ul.navegacion :nth-child(2) {
+  font-weight: bold;
 }
 li {
   list-style: none;
 }
 
 .menu__añadir {
+  font-size: 30px;
   height: 70px;
   width: 100%;
   display: flex;
@@ -54,6 +60,7 @@ section p {
 }
 
 .menu__lista-compra {
+  font-size: 25px;
   display: flex;
   justify-content: space-between;
   background-color: #f77f00;
@@ -78,4 +85,36 @@ section p {
 }
 .menu__total p {
   margin-right: 15px;
+  font-size: 30px;
+}
+
+.editar {
+  margin-left: 15px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  background-color: #f77f00;
+}
+.editar {
+  margin: 15px;
+}
+.formulario__nombre {
+  font-size: 20px;
+  margin: 15px;
+}
+.formulario__precio {
+  font-size: 20px;
+  margin: 15px;
+}
+
+[type="submit"] {
+  font-size: 20px;
+  height: 50px;
+  width: 100px;
+  margin-top: 25px;
+  margin-left: 15px;
+  background-color: #4895ef;
+  color: #ffff;
 }
