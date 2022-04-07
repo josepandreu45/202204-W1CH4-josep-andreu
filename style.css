@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 100vh;
+  height: 100vw;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #4895ef;
+}
+
+header h1 {
+  margin-left: 5px;
+}
+
+.navegacion {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-right: 5px;
+}
+.navegacion li {
+  list-style: none;
+}
