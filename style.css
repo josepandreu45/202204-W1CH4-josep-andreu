@@ -4,7 +4,6 @@
 body {
   margin: 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: #f77f00;
 }
 .container {
   width: 100vh;
@@ -13,6 +12,7 @@ body {
 }
 
 header {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -35,12 +35,13 @@ li {
 
 .menu__añadir {
   height: 70px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: #fb5607;
 }
 
-.fa-solid {
+a {
   display: flex;
   align-items: center;
   margin-left: 15px;
@@ -55,6 +56,7 @@ section p {
 .menu__lista-compra {
   display: flex;
   justify-content: space-between;
+  background-color: #f77f00;
   border-bottom: 1px solid #ffff;
 }
 
@@ -68,9 +70,11 @@ section p {
   margin-right: 15px;
 }
 .menu__total {
+  width: 100%;
   display: flex;
   justify-content: end;
   font-size: 22px;
+  background-color: #f77f00;
 }
 .menu__total p {
   margin-right: 15px;
