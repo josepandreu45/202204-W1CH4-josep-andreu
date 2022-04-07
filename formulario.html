@@ -23,23 +23,20 @@
       </header>
       <main class="menu">
         <section class="menu__añadir">
-          <a href="formulario.html"><i class="fa-solid fa-plus"></i></a>
+          <a href="index.html"><i class="fa-solid fa-minus"></i></a>
           <p>2/3 comprados</p>
         </section>
-        <section class="menu__lista-compra">
-          <ul class="articulo">
-            <li><input type="checkbox" />Pan</li>
-            <li><input type="checkbox" />Azucar</li>
-            <li><input type="checkbox" />Leche</li>
-          </ul>
-
-          <ul class="precio">
-            <li>0.75€ <i class="fa-solid fa-x"></i></li>
-            <li><i class="fa-solid fa-x"></i></li>
-            <li>1.20€<i class="fa-solid fa-x"></i></li>
-          </ul>
-        </section>
-        <section class="menu__total"><p>1.95€</p></section>
+        <form class="formulario">
+          <section class="formulario__nombre">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" />
+          </section>
+          <section class="formulario__precio">
+            <label for="precio">Precio:</label>
+            <input type="text" name="precio" />
+          </section>
+          <input type="submit" value="Modificar" />
+        </form>
       </main>
     </div>
   </body>
