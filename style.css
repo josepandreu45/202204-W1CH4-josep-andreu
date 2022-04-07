@@ -3,6 +3,8 @@
 }
 body {
   margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #f77f00;
 }
 .container {
   width: 100vh;
@@ -27,7 +29,7 @@ header h1 {
   align-items: center;
   margin-right: 15px;
 }
-.navegacion li {
+li {
   list-style: none;
 }
 
@@ -48,4 +50,28 @@ section p {
   margin-right: 15px;
   display: flex;
   align-items: center;
+}
+
+.menu__lista-compra {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffff;
+}
+
+.articulo {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.precio {
+  padding: 0;
+  margin-right: 15px;
+}
+.menu__total {
+  display: flex;
+  justify-content: end;
+  font-size: 22px;
+}
+.menu__total p {
+  margin-right: 15px;
 }
